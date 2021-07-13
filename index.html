@@ -13,9 +13,27 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		(function($) {
+			$(document).ready(function(){
+				$('.to-top a').click(function(){
+					$('html').animate({'scrollTop': 0}, 2000)
+				})
+			})
+		})(jQuery)
+	</script>
 
 </head>
 <body>
+	<div class="to-top">
+		<a href="#">
+			<i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+
+		</a>
+	</div>
 		<header class="head">
 		<div class="container">
 			<div class="content">
