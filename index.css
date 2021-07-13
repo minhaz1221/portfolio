@@ -4,18 +4,15 @@
 	scroll-behavior: smooth;
 
 }
-.to-top {
+.to-top a{
     background: rgb(0, 0, 0, 0.2);
     padding: 10px 15px;
     font-size: 30px;
-    /*display: inline-block;*/
+    color: #fff;
     position: fixed;
     bottom: 12px;
     right: 17px;
     border-radius: 5px;
-}
-.to-top a {
-    color: #fff;
 }
 .to-top:hover {
      background: rgb(0, 0, 0, 0.6);
